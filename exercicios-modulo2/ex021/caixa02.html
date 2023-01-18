@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            margin-top: -22px;
+            background-image: linear-gradient(to right, #cc4d13, #5e270e, #aa9d24);
+        }
+
+        header h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+        }
+
+        #assuntos {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #noticias {
+            background-color: white;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightgrey;
+            color: white;
+            text-align: center;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.315);
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Guerra Esquilos Solidariedade</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>A guerra dos Esquilos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita porro, quia atque exercitationem voluptatem tempora, explicabo aliquam iste tempore minus alias sunt aperiam et esse reprehenderit ut facilis quos error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione soluta in alias doloremque? Ipsum voluptas officia voluptates dolores esse error dicta delectus facere accusantium, veritatis veniam tempora quaerat facilis est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus nostrum dolore delectus in dignissimos natus error, ad ea adipisci suscipit reprehenderit libero alias expedita qui ipsam soluta fuga debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestiae reiciendis velit, eligendi fuga atque nisi quam illum officia, cum dolor molestias, dignissimos nobis? Consequuntur omnis rem incidunt molestias ipsum.</p>
+                <aside>
+                    <p>Artigo escrito por Thiago Batista Gomes</p>
+                </aside>
+            </article>
+            <article>
+                <h2>A humildade de The Leo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, nobis atque sed, iste in voluptatem non, alias eius aperiam reiciendis similique amet impedit accusantium! Repellat expedita dicta natus. Hic, totam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolore maxime hic dolor sit, nobis accusantium corporis provident fugiat consectetur, pariatur facilis tenetur voluptas, soluta ut quidem asperiores iusto. Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita numquam ex hic at tenetur ullam, placeat impedit exercitationem, iure saepe odit cum eum asperiores dignissimos aliquam. Quod, aut sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, earum unde. Maiores incidunt asperiores eveniet, iure beatae delectus, quidem cupiditate architecto veniam at expedita esse eius id officia dolorum laborum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati, assumenda eveniet, aperiam nulla id placeat ab libero eius quae repudiandae mollitia itaque reiciendis accusamus dignissimos at sapiente temporibus quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis explicabo velit accusantium corporis pariatur quasi neque id iure natus eius, nesciunt repellendus repellat nostrum provident adipisci impedit! Blanditiis, consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, facere. Iure quia minus repellat eius delectus exercitationem cumque repudiandae numquam, rerum odio quam recusandae perspiciatis illum, quibusdam ratione quisquam voluptatibus.</p>
+                <aside>
+                    <p>Artigo escrito por Thiago Batista Gomes, com um compilado de testemunhas oculares</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido Pelo Curso em Video</p>
+    </footer>
+</body>
+</html>
