@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -20,6 +21,7 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgrey;
+            border-radius: 10px 10px 0px 0px;
         }
 
         td,th {
@@ -29,8 +31,14 @@
 
         thead, tfoot {
             height: 80px;
-            background-color: gray;
+            background-color: rgb(54, 49, 49);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 49, 49);
         }
 
         tbody > tr:nth-child(odd) { /* odd (ímpar) e 2n-1 são a mesma coisa */
